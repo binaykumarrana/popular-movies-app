@@ -12,4 +12,9 @@ public class BemoApplication extends Application {
     public static BemoApplication getApplication() {
         return application;
     }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
 }
